@@ -1,0 +1,83 @@
+---
+layout: post
+title:  "Try Walking There: Strolling Strange Loops to Understand Them"
+date:   2013-08-30
+categories: godel escher blog 
+---
+
+One of the central themes of Godel Escher Bach is the examination of "Strange
+Loops". Hofstadter defines Strange Loops in the following way:
+
+> The "Strange Loop" phenomenon occurs whenever, by moving upwards (or 
+>downwards) through the levels of some hiearchical system, we unexpectedly
+>find ourselves right back where we started.
+
+
+Strange Loops can be difficult to understand - their contradictions defy a firm
+mental grasp.  Quaerendo invenietis ("By seeking, you will discover") is
+Hofstadter's advice. It's useful to visualize the mental process of
+understanding them even more concretely. 
+
+![Try Walking There]({{ site.url }}/images/hugo.gif)
+
+In David P. Gray's DOS classic, Hugo's House of Horrors, whenever one enters
+a vague command that seems like it depends on being at a particular location,
+the game offers: "Try walking there!" Let's use this piece of wisdom, and 
+start visualizing the realization of the logical consequences of Strange Loops
+as a type of mental motion.
+
+## Single-Step Strange Loops
+Consider the following statement, which is a one-step Strange Loop:
+
+__This statement is false.__
+
+Consider it first as a true statement: because it's true, its content
+guarantees that it will be false. Then consider it as a false statement: if
+it's false that the statement is false, then it must be true. Each time you
+consider the statement in such a way, you are walking the loop. Walking the
+loop builds your intuition on how it works.
+
+## Multi-Step Strange Loops
+There are also multi-step strange loops. 
+
+__The following sentence is false.
+The preceding sentence is true.__
+
+Walk with me: say the first statement is true. That means the second statement
+must be false - but the second statement being false means that the first must
+be false - a contradiction. Now say the first statement is false. That means
+the second statement must be true, implying that the first statement must be
+true - again, contradiction. 
+
+### The Whole is Loopier than the Sum of its Parts
+As Hoftstadter notes, the steps of a strange loop are logically consistent on
+their own - it's when the entire system of statements is considered as a whole
+that things get crazy. 
+
+Consider the following Escher drawing, _Ascending and Descending_:
+
+![Ascending Descending]({{ site.url }}/images/ascending-descending.jpg)
+
+Follow the steps all the way around with your eyes. At the end of the last
+flight of stairs you'll find that you're at the same height as where you
+started, despite the fact that you should be at a new height (above where you
+started if your eyes were going up the stairs, below if you went down the
+stairs). This is a Strange Loop.
+
+Now, consider the following 4 cuts of the drawing, with a different flight
+of stairs removed in each one. None of these form a Strange Loop - it's the
+system as a whole that contains the paradox. 
+
+![Ascending Descending]({{ site.url }}/images/ascending-descending-cut0.gif)
+![Ascending Descending]({{ site.url }}/images/ascending-descending-cut1.gif)
+![Ascending Descending]({{ site.url }}/images/ascending-descending-cut2.gif)
+![Ascending Descending]({{ site.url }}/images/ascending-descending-cut3.gif)
+
+### Propositional Analog
+This is analogous to the following situation:
+
+__The following sentence is false.
+All people use the internet.__
+
+There's no Strange Loop, even though a statement that is part of a Strange Loop
+is present.
