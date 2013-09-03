@@ -18,7 +18,7 @@ mental grasp.  Quaerendo invenietis ("By seeking, you will discover") is
 Hofstadter's advice. It's useful to visualize the mental process of
 understanding them even more concretely. 
 
-![Try Walking There]({{ site.url }}/images/hugo.gif)
+![Try Walking There]({{ site.baseurl }}/images/hugo.gif)
 
 In David P. Gray's DOS classic, Hugo's House of Horrors, whenever one enters
 a vague command that seems like it depends on being at a particular location,
@@ -56,7 +56,7 @@ that things get crazy.
 
 Consider the following Escher drawing, _Ascending and Descending_:
 
-![Ascending Descending]({{ site.url }}/images/ascending-descending.jpg)
+![Ascending Descending]({{ site.baseurl }}/images/ascending-descending.jpg)
 
 Follow the steps all the way around with your eyes. At the end of the last
 flight of stairs you'll find that you're at the same height as where you
@@ -68,10 +68,10 @@ Now, consider the following 4 cuts of the drawing, with a different flight
 of stairs removed in each one. None of these form a Strange Loop - it's the
 system as a whole that contains the paradox. 
 
-![Ascending Descending]({{ site.url }}/images/ascending-descending-cut0.gif)
-![Ascending Descending]({{ site.url }}/images/ascending-descending-cut1.gif)
-![Ascending Descending]({{ site.url }}/images/ascending-descending-cut2.gif)
-![Ascending Descending]({{ site.url }}/images/ascending-descending-cut3.gif)
+![Ascending Descending]({{ site.baseurl }}/images/ascending-descending-cut0.gif)
+![Ascending Descending]({{ site.baseurl }}/images/ascending-descending-cut1.gif)
+![Ascending Descending]({{ site.baseurl }}/images/ascending-descending-cut2.gif)
+![Ascending Descending]({{ site.baseurl }}/images/ascending-descending-cut3.gif)
 
 ### Propositional Analog
 This is analogous to the following situation:
