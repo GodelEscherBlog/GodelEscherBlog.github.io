@@ -80,4 +80,11 @@ __The following sentence is false.
 All people use the internet.__
 
 There's no Strange Loop, even though a statement that is part of a Strange Loop
-is present.
+(one that was defined in a previous section) is present.
+
+## Conclusion
+Mentally "walking" through Strange Loops - considering their statements as true
+or false and then following through with what that implies - is the best way
+to understand them. Strange loops are formed out of steps that are logically
+valid when considered individually or in some subset of the whole, but when
+taken all together create a paradox. 
