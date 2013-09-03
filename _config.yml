@@ -2,3 +2,4 @@ name: Godel Escher Blog
 markdown: redcarpet
 pygments: true
 baseurl: http://godelescherblog.github.io
+permalink: :title
